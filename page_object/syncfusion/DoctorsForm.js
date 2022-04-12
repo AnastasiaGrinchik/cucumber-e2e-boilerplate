@@ -1,6 +1,4 @@
 const { $, $$ } = require('@cucumber-e2e/po2');
-const SelectionInDropdownList = require('./SelectionInDropdownList');
-
 class DoctorsForm {
   selector = '.new-doctor-dialog.e-dlg-modal';
 
@@ -14,7 +12,6 @@ class DoctorsForm {
   ExperienceSelect = $('[aria-owns="Experience_options"]');
   DutyTimingSelect = $('[aria-owns="DutyTiming_options"]');
   SaveFormButton = $('//button[contains(text(), "Save")]');
-  DropdownList = $$(new SelectionInDropdownList());
 }
 
 module.exports = DoctorsForm;
