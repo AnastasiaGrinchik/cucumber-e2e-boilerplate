@@ -3,7 +3,7 @@ const GoogleResults = require('./GoogleResults');
 const WikiHome = require('./wikipedia/WikiHome');
 const SyncfusionHome = require('./syncfusion/SyncfushionHome');
 const DoctorsForm = require('./syncfusion/DoctorsForm');
-const SelectionInDropdownList = require('./syncfusion/SelectionInDropdownList');
+const DropdownList = require('./syncfusion/DropdownList');
 const FullDoctorsCard = require('./syncfusion/FullDoctorsCard');
 const PatientsForm = require('./syncfusion/PatientsForm');
 const PatientsTable = require('./syncfusion/PatientsTable')
@@ -15,7 +15,7 @@ class App {
     WikiHome = $(new WikiHome());
     SyncfusionHome = $(new SyncfusionHome());
     DoctorsForm = $(new DoctorsForm());
-    SelectionInDropdownList = $$(new SelectionInDropdownList());
+    DropdownList = $$(new DropdownList());
     FullDoctorsCard = $(new FullDoctorsCard());
     PatientsForm = $(new PatientsForm());
     PatientsTable = $(new PatientsTable())
